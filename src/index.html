@@ -8,6 +8,28 @@
 </head>
 
 <body>
+  <header>
+    <h1>Analizador de Texto</h1>
+
+    <ul class="parametro">
+      <li data-testid="word-count">Cantidad de Palabras:</li>
+      <li data-testid="character-count">Caracteres:</li>
+      <li data-testid="character-no-spaces-count">Caracteres sin espacios:</li>
+      <li data-testid="number-count">Numeros:</li>
+      <li data-testid="number-sum">Suma de numeros:</li>
+      <li data-testid="word-length-average">Promedio Longitud de Palabras:</li>
+    </ul>
+  </header>
+
+<div> 
+<textarea name="user-input" rows="15" cols="60" wrap="hard" placeholder="Escribe o copia tu texto aqui..."></textarea>
+</div>
+
+<button id="reset-button">Borrar Contenido</button>
+
+<footer>
+  <p> &copy;Joseline Garcia</p>
+</footer>
   <script src="index.js" type="module"></script>
 </body>
 </html>

@@ -1,0 +1,32 @@
+header{
+    text-align: center;
+}
+
+div{
+    text-align: center;
+}
+
+.parametro {
+margin: auto;
+padding: 0%;
+background: fixed;
+border: 0cap;
+}
+
+.textarea {
+    background-color: rgb(125, 69, 17)2, 90, 26;
+}
+
+button{
+    display: block;
+    background-color: darkgray;
+    padding: 1%;
+    border: 1px;
+    margin: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 0%;
+    background-color: antiquewhite;
+}
