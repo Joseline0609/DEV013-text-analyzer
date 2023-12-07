@@ -41,5 +41,8 @@
     "createdAt": "2023-11-29T16:08:34.180Z",
     "version": "7.2.0",
     "commit": "1de2680e40ef16d29e19985aead2ed487f0e8345"
+  },
+  "dependencies": {
+    "dead-server": "^1.0.9"
   }
 }
