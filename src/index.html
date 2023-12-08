@@ -3,6 +3,8 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="description" content="Este analizador te ayudara a determinar el numero de caracteres de tu texto, asi como muchos otros parametros"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Analizador de texto</title>
   <link rel="stylesheet" href="style.css" />
 </head>
@@ -10,7 +12,9 @@
 <body>
   <header>
     <h1>Analizador de Texto</h1>
+  </header>
 
+  <main>
     <ul>
       <li class="parametro" data-testid="word-count">Cantidad de Palabras:</li>
       <li class="parametro" data-testid="character-count">Caracteres:</li>
@@ -19,13 +23,11 @@
       <li class="parametro" data-testid="number-sum">Suma de numeros:</li>
       <li class="parametro" data-testid="word-length-average">Promedio Longitud de Palabras:</li>
     </ul>
-  </header>
-
 <form name="interactiveControl">
-<textarea name="user-input" rows="15" cols="60" wrap="hard" minlength="10" maxlength="20" placeholder="Escribe o copia tu texto aqui..."></textarea>
+<textarea name="user-input" rows="15" cols="60" wrap="hard" minlength="10"   placeholder="Escribe o copia tu texto aqui..."></textarea>
 </form>
-
 <button id="reset-button">Borrar Contenido</button>
+</main>
 
 <footer>
   <p> &copy;Joseline Garcia</p>
