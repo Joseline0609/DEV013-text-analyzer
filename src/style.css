@@ -1,3 +1,5 @@
+
+
 header{
     text-align: center;
 }
@@ -14,6 +16,11 @@ background: fixed;
 border: 0cap;
 }
 
+ul, form, button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 textarea[name="user-input"] {
     width:400px;
@@ -21,7 +28,7 @@ textarea[name="user-input"] {
     border: 5px solid antiquewhite ;
 }
 
-#reset-button {
+#resetButton {
     display: block;
     background-color: darkgray;
     padding: 1%;
