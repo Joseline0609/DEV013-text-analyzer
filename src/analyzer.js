@@ -14,7 +14,6 @@ const analyzer = {
     // Usar una expresión regular para encontrar todos los números en el texto
     const numeros = text.match(/\d+/g);
     // Devolver la cantidad de números encontrados
-    // Si no hay números, match devolverá null, así que asegúrate de manejar eso
     return numeros ? numeros.length : 0;
   },
   getNumberSum: (text) => {
@@ -32,7 +31,7 @@ const analyzer = {
       }
     }
 
-    // Asegurarse de sumar el último número si el texto termina con un dígito
+    // Recomendacion, asegurarse de sumar el último número si el usuria terminara con algun numero 
     if (numeroActual.length > 0) {
       suma += parseInt(numeroActual, 10);
     }

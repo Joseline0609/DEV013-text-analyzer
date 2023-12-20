@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
   textarea.addEventListener('input', () => {
     // Obtener el texto del textarea
     const texto = textarea.value;
-    // Usar analyzer para obtener el recuento de palabras y demas metricas
+    // Llamar a analyzer para obtener el recuento de palabras y demas metricas
     const wordCount = analyzer.getWordCount(texto);
     const characterCount =analyzer.getCharacterCount(texto);
     const noSpaces=analyzer.getCharacterCountExcludingSpaces(texto);
