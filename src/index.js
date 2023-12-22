@@ -16,14 +16,13 @@ document.addEventListener('DOMContentLoaded', () => {
     // Obtener el texto del textarea
     const texto = textarea.value;
     // Llamar a analyzer para obtener el recuento de palabras y demas metricas
-    const wordCount = analyzer.getWordCount(texto);
     const characterCount =analyzer.getCharacterCount(texto);
     const noSpaces=analyzer.getCharacterCountExcludingSpaces(texto);
     const number=analyzer.getNumberCount(texto);
     const numberSum=analyzer.getNumberSum(texto);
     const lengthAverage=analyzer.getAverageWordLength(texto);
     // Actualizar el contenido del elemento li con el recuento de palabras y demas metricas usando text.content
-    resultadoLi0.textContent = `Cantidad de palabras: ${wordCount}`;
+    resultadoLi0.textContent = `Cantidad de palabras: ${analyzer.getWordCount(texto)}`;
     resultadoLi1.textContent=`Cantidad de Caracteres: ${characterCount}`;
     resultadoLi2.textContent=`Caracteres sin espacios: ${noSpaces}`;
     resultadoLi3.textContent=`Numeros: ${number}`;
