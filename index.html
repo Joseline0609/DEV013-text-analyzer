@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Joseline Alfaro"/>
+  <meta name="description" content="Este analizador te ayudara a determinar el numero de caracteres de tu texto, asi como muchos otros parametros"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Analizador de texto</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Analizador de Texto</h1>
+  </header>
+
+  <main>
+    <ul>
+      <li class="parametro" data-testid="word-count">Cantidad de palabras: </li>
+      <li class="parametro" data-testid="character-count">Cantidad de Caracteres: </li>
+      <li class="parametro" data-testid="character-no-spaces-count">Caracteres sin espacios: </li>
+      <li class="parametro" data-testid="number-count">Numeros: </li>
+      <li class="parametro" data-testid="number-sum">Suma de numeros: </li>
+      <li class="parametro" data-testid="word-length-average">Promedio Longitud de Palabras: </li>
+    </ul>
+<form>
+<textarea name="user-input" rows="15" cols="60" wrap="hard" minlength="10"   placeholder="Escribe o copia tu texto aqui..."></textarea>
+</form>
+<button id="resetButton">Borrar Contenido</button>
+</main>
+
+<footer>
+  <p> &copy;Joseline Garcia</p>
+</footer>
+  <script src="index.js" type="module"></script>
+</body>
+</html>
