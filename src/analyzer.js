@@ -48,6 +48,11 @@ const analyzer = {
     }
     return palabras.length > 0 ? sumaLongitudes / palabras.length : 0;*/
   },
+
 };
+
+/*function clear(contenido) {
+  contenido.value='';
+}*/
 
 export default analyzer;  
