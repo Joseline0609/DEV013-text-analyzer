@@ -51,8 +51,5 @@ const analyzer = {
 
 };
 
-/*function clear(contenido) {
-  contenido.value='';
-}*/
 
 export default analyzer;  
